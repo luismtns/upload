@@ -1,0 +1,84 @@
+body{
+	background-color: #222222;
+	margin: 0 auto;
+	color: #F4F4F4;
+	font-family: 'Roboto', sans-serif;
+}
+.logo-manu img{
+	max-width: 300px;
+	margin:0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+	opacity: 1;
+	animation:title 1.5s 0.3s linear;
+}
+.logo-manu{
+	width: 300px;
+	margin: 0 auto;
+}
+.text-manu{
+	margin-top: 250px;
+	text-align: center;
+
+}
+.text-manu h1{
+	font-size: 2em;
+	letter-spacing: 0.1em;
+}
+@keyframes title{
+	from{top: -50px; opacity: 0;}
+	to{top: 20px; opacity: 1;}
+}
+.text-forinfo h2{
+	font-size: 1.3em;
+	color: #DBDBDB;
+}
+.vm-link{
+	color:#00ADEF;
+}
+.vm-link:visited{
+	color:#00ADEF;
+}
+.vm-link:hover{
+	color:#2D586B;
+}
+.fb-link{
+	color: #4267b2;
+}
+.fb-link:visited{
+	color: #4267b2;
+}
+.fb-link:hover{
+color:#365899;
+}
+.video-ajust-manu{
+	width: 100%;
+	margin:auto;
+	margin-top: 50px;
+
+}
+@media only screen and (max-width: 768px){
+	.video-control-manu{
+	width: 500px;
+	height: 281px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.video-control-manu{
+	width: 320px;
+	height: 180px;
+	}
+}
+
+.infos-contat{
+	font-size: 12px;
+	color: #DEDEDE;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	padding-bottom: 40px;
+	width: 100%;
+}
